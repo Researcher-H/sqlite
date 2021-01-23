@@ -63,7 +63,7 @@ var sqlite3 = require('sqlite3').verbose()
 var db = new sqlite3.Database(':memory:')
 ```
 
-##### db is a Database object method.
+#### db is a Database object method.
 - db@serialize() --- Puts the execution mode into serialized = blocking
   - db@run() --- Runs the SQL query [1](). It does not retrieve any result data. The function returns the Database object for which it was called to allow for function chaining [2]().
   - db@prepare() --- Prepares the SQL statement. The function returns a Statement object.
@@ -94,7 +94,7 @@ db.serialize(function () {
   }
 ```
 
-##### stmt is a Statement object
+#### stmt is a Statement object
 - stmt@run() --- Binds parameters and executes the statement. The function returns the Statement object to allow for function chaining.
 - stmt@finalize() --- Finalizes the statement.
 - 
