@@ -104,6 +104,8 @@ db.serialize(function () {
 - stmt@all() --- 
 - stmt@each() --- 
 
+---
+
 ```javascript
 var stmt = db.prepare('INSERT INTO lorem VALUES (?)')
 
