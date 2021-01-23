@@ -54,10 +54,14 @@ https://github.com/mapbox/node-sqlite3/wiki/API
 
 <br>
 
+---
+
 Based on the above example,
 
+```javascript
 var sqlite3 = require('sqlite3').verbose()  
 var db = new sqlite3.Database(':memory:')
+```
 
 ##### db is a Database object method.
 - db@serialize() --- Puts the execution mode into serialized = blocking
