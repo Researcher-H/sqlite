@@ -108,19 +108,19 @@ for (var i = 0; i < 10; i++) {
 }
 ```
 
-Output of the above example code is below.
+Output of the above example code (within SQLite) is below.
 
 id	info
-1	Ipsum 0
-2	Ipsum 1
-3	Ipsum 2
-4	Ipsum 3
-5	Ipsum 4
-6	Ipsum 5
-7	Ipsum 6
-8	Ipsum 7
-9	Ipsum 8
-10	Ipsum 9
+1	Ipsum 0  
+2	Ipsum 1  
+3	Ipsum 2  
+4	Ipsum 3  
+5	Ipsum 4  
+6	Ipsum 5  
+7	Ipsum 6  
+8	Ipsum 7  
+9	Ipsum 8  
+10	Ipsum 9  
 
 MVC ???
 
