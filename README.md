@@ -110,7 +110,7 @@ for (var i = 0; i < 10; i++) {
 
 Output of the above example code (within SQLite) is below.
 
-id	info
+id	info  
 1	Ipsum 0  
 2	Ipsum 1  
 3	Ipsum 2  
